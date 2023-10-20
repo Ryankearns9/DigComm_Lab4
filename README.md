@@ -1,5 +1,7 @@
 # DigComm_Lab4
 
+The below lab answers all questions posed from the experiment. Additional images of the lab can be found in the following link. https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs
+
 ## Amplitude Shift Keying
 
 Amplitude shift keying is the act of modulating symbols via changes in amplitude for transmitted signal. In this lab, we built an RF ASK signal
@@ -54,7 +56,7 @@ A Schmitt Trigger or a comparator can be used to clean up the signal. In both ca
 As mentioned in the previous section, the comparator fixes the signal by transmitting either a high or low output based on whether the signal is above or below the referenced voltage. This creates a sharp output because it ignores how far away the signal is from the reference and instead just looks to see if the signal is above or below.
 
 
-Frequency Shift Keying
+## Frequency Shift Keying
 
 1. What's the name of the VCO output frequency that correspods with the logic-1s in the ditial data? **Tip:** If you're not sure, see the preliminary discussion
 
@@ -73,17 +75,33 @@ As noted above, the higher frequency is the 1's. Also called the "Mark Frequency
 
 $A_c\cos(2 \pi f_c t + 2 \pi k_f \int m(t)dt )$
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/blob/main/imgs/Bandpass.PNG)
+Notice that in the event of a DC 1, the value of the term $2 \pi k_f \int m(t)dt$ can be simplified to $2 \pi k_f t$. Likewise, when the voltage is a 0, the term is simplified to 0. Intuitively, this can be understood as higher voltages translating to higher frequencies. Therefore, a logical one translates to a higher frequency than a logical 0.
+
+
+
+4. Which of the FSK signal's two sinewaves is the filter picking out?
+
+As can be seen in the below figure, the low pass filter is choosing the 0's and attenuating the 1's to nearly 0. This makes sense given our understanding from question 3 that the 0 corresponds to the lower frequency
 
 ![alt text](https://github.com/Ryankearns9/DigComm_Lab4/blob/main/imgs/FSK_Pic2_LPF.PNG)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/blob/main/imgs/FSK_Comparator.PNG)
+
+
+
+5. What does the filtered FSK signal look like?
+
+The above filtered FSK signal looks like the ASK signal from the previous experiment. From this we can infer that we can demodulate in a similar way.
+
+
+
+6. What is used to "clean up" the recovered digital data?
+
+The below figure demonstrates the output from the baseband filter. This signal can clearly be distinguished for the 1's and 0's. However, the long rising and falling edges will make this signal difficult for a computer to read. As with the previous expirment, a comparator can be used to clean this signal up. It will be accomplished by comparing the signal amplitude to a reference voltage and outputing a high voltage if the measured voltage is above the reference and output a low voltage if the measured voltage is below the reference.
 
 ![alt text](https://github.com/Ryankearns9/DigComm_Lab4/blob/main/imgs/FSK_baseband_filter_withGain.PNG)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/blob/main/imgs/FSK_baseband_filter.PNG)
-
-4. Which of the FSK signal's two sinewaves is the filter picking out?
-5. What does the filtered FSK signal look like?
-6. What is used to "clean up" the recovered digital data?
 7. How does the comparator turn the slow rising voltages of the recovered digital signal into sharp transitions?
+
+As shown below, the comparator significantly cleans up the signal. This is because a reference voltage is used to determine what will qualify as a 1 and what will qualify as a 0. Anything above this reference voltage will always output a high and anything below this will always output a low. The comparator removes any deviation from high and low which exists with the current signal.
+
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/blob/main/imgs/FSK_Comparator.PNG)
