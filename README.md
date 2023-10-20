@@ -71,7 +71,7 @@ The logical 0's correspond to the "Space frequency". As shown in the above figur
 
 As noted above, the higher frequency is the 1's. Also called the "Mark Frequency." This can be seen visually with the applied graph but can also be understood by looking at the equation FM transmission taken from the Lecture 3 slides. See below:
 
-$A_c\cos()$
+$A_c\cos(2 \pi\f_c * )$
 
 ![alt text](https://github.com/Ryankearns9/DigComm_Lab4/blob/main/imgs/Bandpass.PNG)
 
