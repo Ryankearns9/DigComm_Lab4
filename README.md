@@ -8,13 +8,13 @@ Amplitude shift keying is the act of modulating symbols via changes in amplitude
 1. What is the relationship between the digital signal and the presence of the carrier in the ASK signal?
 
 As shown in the below image, symbols for the ASK signal are transmitted by either the carrier signal being active or inactive. In other words, the signal is transmitted so that a 1 is the carrier signal frequency and a 0 is no transmission.
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_1.png)
+![Image](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_1.png)
 
 
 
 2. What is the ASK signal's voltage when the digitial signal is logic-0? **Tip**: If you're not sure, briefly set the Channel 2 *Input Coupling* control to the GND
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_2.png)
+![Image](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_2.png)
 
 
 
