@@ -5,25 +5,25 @@ Amplitude Shift Keying
 
 1. What is the relationship between the digital signal and the presence of the carrier in the ASK signal?
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_1.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_1.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_2.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_2.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_3a.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_3a.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_3b.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_3b.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_4a.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_4a.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_4b.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_4b.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5a.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5a.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5b.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5b.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5c.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5c.png)
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5d.PNG)
+![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_5d.png)
 
 2. What is the ASK signal's voltage when the digitial signal is logic-0? **Tip**: If you're not sure, briefly set the Channel 2 *Input Coupling* control to the GND
 3. What feature of the ASK signal suggests that it's an AM signal? **Tip**: If you're not sure, see the preliminary discussion
