@@ -7,7 +7,7 @@ Amplitude shift keying is the act of modulating symbols via changes in amplitude
 1. What is the relationship between the digital signal and the presence of the carrier in the ASK signal?
 
 As shown in the below image, symbols for the ASK signal are transmitted by either the carrier signal being active or inactive. In other words, the signal is transmitted so that a 1 is the carrier signal frequency and a 0 is no transmission.
-![Screenshot](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_1.png)
+![Screenshot](https://raw.githubusercontent.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_1.png)
 
 
 
@@ -19,7 +19,7 @@ As shown in the below image, symbols for the ASK signal are transmitted by eithe
 
 3. What feature of the ASK signal suggests that it's an AM signal? **Tip**: If you're not sure, see the preliminary discussion
 
-![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_3a.png)
+![alt text](https://raw.githubusercontent.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_3a.png)
 
 ![alt text](https://github.com/Ryankearns9/DigComm_Lab4/tree/main/imgs/picture_3b.png)
 
