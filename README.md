@@ -1,7 +1,6 @@
 # DigComm_Lab4
-Lab4
 
-Amplitude Shift Keying
+## Amplitude Shift Keying
 
 Amplitude shift keying is the act of modulating symbols via changes in amplitude for transmitted signal. In this lab, we built an RF ASK signal
 
